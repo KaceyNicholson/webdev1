@@ -1,0 +1,40 @@
+body{
+    background-image: url(images_gifs/images/il_570xN.1574091017_58sb.jpg);
+
+}
+.butterfly-img{
+    position:absolute;
+    top: 50%;
+    right: 40%;
+
+}
+
+
+img{
+    top: 60%;
+    right: 26%;
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    object-fit: fit 10%;
+    right: 10%;
+}
+
+.butterfly-gif{
+    position: fixed;
+    top:10%;
+    right: -15%;
+    bottom: -15%;
+    padding: 26%;
+    left: -6%;
+}
+h1{
+     font-family: Arial, Helvetica, sans-serif;
+    color: orchid;
+}
+
+p{font-family: fantasy;
+    color: palevioletred;
+
+}
+

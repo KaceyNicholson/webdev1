@@ -1,0 +1,26 @@
+
+.progress-bar3 {
+  height: 18px;
+  border-radius: 4px;
+  background-image: 
+     linear-gradient(to right, 
+       blue, red, green);
+  transition: 0.4s linear;  
+  transition-property: width, background-color;    
+}
+
+.progress-infinite .progress-bar3 { 	 
+  width: 100%; 
+  background-image: 
+    linear-gradient(to right, blue, red, green);
+  animation: colorAnimation 1s infinite;
+}
+
+@keyframes colorAnimation {
+    0%   { width: 5%; background-color: blue;}
+    50% { width: 45%; background-color: red;}
+
+
+
+}
+  

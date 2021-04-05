@@ -1,4 +1,33 @@
-h1 {
-    font-family: "Lucida Console", "Courier New", monospace;
-}
+body{ background-image: url(images_gifs/R1e.gif)
+    }
+    
 
+
+
+
+  h1{
+      color: rgb(228, 110, 129);
+      font-family: fantasy;
+      text-align: center;
+      font-size: 55px;
+
+  }
+
+  
+  img{
+    top: 60%;
+    right: 26%;
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    object-fit: fit 10%;
+    right: 10%;
+}
+ 
+  
+  div{
+      color: rgb(228, 110, 129);
+      text-align: center;
+      font-size: 37px;
+
+  }

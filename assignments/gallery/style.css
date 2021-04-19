@@ -1,8 +1,8 @@
 *{margin: 15; padding: 15;}
-@media (max-resolution: 300dpi){
+
     
 body{font-family:'Lobster', cursive;
-background: lightgreen; }}
+background: lightgreen; }
 
 nav{text-align: center;
     font-size: 40px;

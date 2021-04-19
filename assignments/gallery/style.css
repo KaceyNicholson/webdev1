@@ -1,5 +1,6 @@
 *{margin: 15; padding: 15;}
-@media (max-resolution: 300dpi){
+@media (max-resolution: 300dpi)
+{
     
 body{font-family:'Lobster', cursive;
 background: lightgreen; }}

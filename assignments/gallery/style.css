@@ -2,14 +2,14 @@
 @media (max-resolution: 300dpi){
     
 body{font-family:'Lobster', cursive;
-background: rgb(183, 202, 145); }}
+background: lightgreen; }}
 
 nav{text-align: center;
     font-size: 40px;
     background:paleturquoise;
 }
 
-.grid-gallery
+.grid-gallery 
 {
 display: grid; 
 grid-template-columns: repeat(3,1fr);

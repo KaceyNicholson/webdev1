@@ -1,0 +1,46 @@
+*{margin: 0; padding: 0;}
+
+body{font-family:'Lobster', cursive;
+background: pink; }
+
+
+nav{text-align: center;
+    font-size: 50px;
+    background:whitesmoke;
+}
+
+.grid-gallery 
+{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    grid-gap: 1rem;
+ 
+    
+   
+
+}
+
+.grid-item
+{
+    object-fit: cover;
+    width: 30vw;
+    height: 30vw;
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-gallery {
+        grid-template-columns: 1fr;
+        
+        
+    }
+
+    .grid-item {
+        width: 90vw;
+        height: 90vw;
+    }
+    
+}
+
